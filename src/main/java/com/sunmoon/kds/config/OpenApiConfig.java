@@ -18,6 +18,6 @@ public class OpenApiConfig {
                         .title("sun-moon-java-platform-kds API")
                         .description("Kitchen Display System — ticket intake for the sun-moon-java-platform family.")
                         .version("0.1.0"))
-                .servers(List.of(new Server().url("/")));
+                .servers(List.of(new Server().url("/kds")));
     }
 }
